@@ -1,0 +1,77 @@
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: #FC6C49;
+    align-items: center;
+    font-family: Arial;
+}
+
+h1, h2{
+    color: white;
+}
+
+#bloque1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 1200px;
+}
+
+#tiempo, #contador, #tablaJugadores {
+    border: 4px solid black;
+    height: fit-content;
+    width: 180px;
+    font-size: 20px;
+    padding: 20px;
+    border-radius: 12px;
+    margin-top: 0px;
+    background-color: #F78672;
+    color: white;
+}
+
+#tablaJugadores {
+    width: 200px;
+    text-align: center;
+}
+
+#bloque2 {
+    margin-top: 40px;
+}
+
+#start {
+    background-color: gray;
+    border: 3px solid black;
+    font-size: 20px;
+    border-radius: 12px;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: white;
+    cursor: pointer;
+}
+
+#start:hover {
+    background-color: #616161;
+}
+
+img {
+    display: block;
+    width: 150px;
+}
+
+table {
+    width: fit-content;
+    background-color: black;
+    position: relative;
+    right: 10px;
+}
+
+td {
+    cursor: pointer;
+}
+
+button {
+    width: fit-content;
+    height: fit-content;
+    margin-right: 50px;
+}
