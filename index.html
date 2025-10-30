@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto 3</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <h1>Puzzle deslizante</h1>
+    <h2 id="fraseInicio">Después de empezar, tendrás que conseguir formar esta imagen</h2>
+    <div id="bloque1">
+        <div id="subBloque1">
+            <p id="tiempo">Tiempo: <span id="numeroTiempo"></span></p>
+            <p id="contador">Movimientos: <span id="numeroMovimientos"></span></p>
+        </div>
+        <table>
+            <tr>
+                <td id="c1"></td>
+                <td id="c2"></td>
+                <td id="c3"></td>
+            </tr>
+            <tr>
+                <td id="c4"></td>
+                <td id="c5"></td>
+                <td id="c6"></td>
+            </tr>
+            <tr>
+                <td id="c7"></td>
+                <td id="c8"></td>
+                <td id="c9"></td>
+            </tr>
+        </table>
+        <div id="tablaJugadores">
+            <p>Mejores tiempos: </p>
+            <p>1. <span id="rank1"></span></p>
+            <p>2. <span id="rank2"></span></p>
+            <p>3. <span id="rank3"></span></p>
+            <p>4. <span id="rank4"></span></p>
+            <p>5. <span id="rank5"></span></p>
+        </div>
+    </div>
+    <div id="bloque2">
+        <div id="botones">
+            <button id="start">JUGAR</button>
+        </div>
+        <script src="main.js"></script>
+    </div>
+</body>
+</html>
